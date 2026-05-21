@@ -24,7 +24,7 @@ const CONFIG = {
   PORT: process.env.PORT || 3000,
   ANTHROPIC_API_KEY: process.env.ANTHROPIC_API_KEY,
   WEBHOOK_SECRET: process.env.WEBHOOK_SECRET || "assouline-ats-secret", // Set this in Zapier too
-  MODEL: "claude-sonnet-4-20250514",
+  MODEL: "claude-sonnet-4-5",
 };
 
 const anthropic = new Anthropic({ apiKey: CONFIG.ANTHROPIC_API_KEY });
